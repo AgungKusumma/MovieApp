@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Challenge Chapter 5</string>
+
+    <!--Login-->
+    <string name="tv_label_login">Login</string>
+    <string name="tv_login_email_hint">Enter Email</string>
+    <string name="tv_login_password_hint">Enter Password</string>
+    <string name="tv_doesnt_have_account">Doesn\'t have an account? <font fgcolor="blue">Register Here</font></string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_success">Login Success</string>
+    <string name="logout_success">Logout Success</string>
+    <string name="tv_wrong_email">Email doesn\'t exist</string>
+    <string name="tv_wrong_password">Password doesn\'t exist</string>
+
+    <!--Register-->
+    <string name="tv_label_register">Register</string>
+    <string name="tv_register_username_hint">Enter Username</string>
+    <string name="tv_register_confirm_password_hint">Enter Confirm Password</string>
+    <string name="tv_have_an_account">Already have an account? <font fgcolor="blue">Login Here</font></string>
+    <string name="register_success">Register Success</string>
+
+    <!--Home-->
+    <string name="tv_label_home">Home</string>
+    <string name="tv_home_welcome">Welcome, %1$s</string>
+    <string name="tv_home_logout">Logout</string>
+    <string name="tv_home_empty_list">Movie is empty</string>
 </resources>
