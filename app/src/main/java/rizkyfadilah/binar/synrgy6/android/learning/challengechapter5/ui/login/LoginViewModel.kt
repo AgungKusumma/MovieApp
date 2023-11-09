@@ -1,4 +1,4 @@
-package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.login
+package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

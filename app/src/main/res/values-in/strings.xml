@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tantangan Bab 5</string>
+
+    <!--Login-->
+    <string name="tv_label_login">Masuk</string>
+    <string name="tv_login_email_hint">Masukkan Email</string>
+    <string name="tv_login_password_hint">Masukkan Kata Sandi</string>
+    <string name="tv_doesnt_have_account">Belum memiliki akun? <font fgcolor="blue">Daftar di Sini</font></string>
+    <string name="login_failed">Gagal Masuk</string>
+    <string name="login_success">Berhasil Masuk</string>
+    <string name="logout_success">Berhasil Keluar</string>
+    <string name="tv_wrong_email">Email tidak ditemukan</string>
+    <string name="tv_wrong_password">Kata Sandi salah</string>
+
+    <!--Register-->
+    <string name="tv_label_register">Daftar</string>
+    <string name="tv_register_username_hint">Masukkan Nama Pengguna</string>
+    <string name="tv_register_confirm_password_hint">Masukkan Konfirmasi Kata Sandi</string>
+    <string name="tv_have_an_account">Sudah memiliki akun? <font fgcolor="blue">Masuk di Sini</font></string>
+    <string name="register_success">Berhasil Mendaftar</string>
+
+    <!--Home-->
+    <string name="tv_label_home">Beranda</string>
+    <string name="tv_home_welcome">Selamat datang, %1$s</string>
+    <string name="tv_home_empty_list">Daftar Film kosong</string>
+    <string name="tv_title">Judul</string>
+    <string name="tv_author">Pengarang</string>
+    <string name="tv_date">Tanggal</string>
+    <string name="tv_loading">Memuat...</string>
+
+    <!--Profile-->
+    <string name="tv_profile_logout">Keluar</string>
+    <string name="tv_label_update">Perbarui</string>
+    <string name="update_success">Berhasil Memperbarui Data</string>
+    <string name="tv_overview">Ikhtisar</string>
+    <string name="tv_movie_error">Film tidak ad</string>
+    <string name="tv_wrong_validation_password">Kata sandi tidak sam</string>
+</resources>

@@ -2,9 +2,9 @@ package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.home.HomeViewModel
-import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.login.LoginViewModel
-import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.register.RegisterViewModel
+import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.home.HomeViewModel
+import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.login.LoginViewModel
+import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.register.RegisterViewModel
 
 class ViewModelFactory(private val pref: UserPreference) : ViewModelProvider.NewInstanceFactory() {
 

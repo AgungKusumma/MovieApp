@@ -1,4 +1,4 @@
-package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.home
+package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

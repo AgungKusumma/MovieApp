@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.login.LoginFragment"
+        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.login.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
@@ -19,20 +19,49 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.register.RegisterFragment"
+        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.register.RegisterFragment"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" >
+        tools:layout="@layout/fragment_register">
         <action
             android:id="@+id/action_registerFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.home.HomeFragment"
+        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailHomeFragment"
+            app:destination="@id/detailHomeFragment">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.profile.ProfileFragment"
+        android:label="ProfileFragment">
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailHomeFragment"
+        android:name="rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.home.DetailHomeFragment"
+        android:label="DetailHomeFragment">
+        <action
+            android:id="@+id/action_detailHomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
     </fragment>
 </navigation>

@@ -1,4 +1,4 @@
-package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.register
+package rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.ui.register
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

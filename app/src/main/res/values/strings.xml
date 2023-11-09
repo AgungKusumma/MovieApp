@@ -11,6 +11,7 @@
     <string name="logout_success">Logout Success</string>
     <string name="tv_wrong_email">Email doesn\'t exist</string>
     <string name="tv_wrong_password">Password doesn\'t exist</string>
+    <string name="tv_wrong_validation_password">Password is not the same</string>
 
     <!--Register-->
     <string name="tv_label_register">Register</string>
@@ -22,6 +23,16 @@
     <!--Home-->
     <string name="tv_label_home">Home</string>
     <string name="tv_home_welcome">Welcome, %1$s</string>
-    <string name="tv_home_logout">Logout</string>
     <string name="tv_home_empty_list">Movie is empty</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_author">Author</string>
+    <string name="tv_date">Date</string>
+    <string name="tv_loading">Loading...</string>
+
+    <!--Profile-->
+    <string name="tv_profile_logout">Logout</string>
+    <string name="tv_label_update">Update</string>
+    <string name="update_success">Update Data Success</string>
+    <string name="tv_overview">Overview</string>
+    <string name="tv_movie_error">Movie doesn\'t exist</string>
 </resources>
