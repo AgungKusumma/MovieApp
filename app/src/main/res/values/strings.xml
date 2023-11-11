@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Challenge Chapter 5</string>
+    <string name="app_name">Movie App</string>
 
     <!--Login-->
     <string name="tv_label_login">Login</string>

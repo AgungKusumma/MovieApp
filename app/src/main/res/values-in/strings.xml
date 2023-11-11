@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tantangan Bab 5</string>
+    <string name="app_name">Aplikasi Film</string>
 
     <!--Login-->
     <string name="tv_label_login">Masuk</string>
