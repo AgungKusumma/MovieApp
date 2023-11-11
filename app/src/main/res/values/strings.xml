@@ -6,7 +6,6 @@
     <string name="tv_login_email_hint">Enter Email</string>
     <string name="tv_login_password_hint">Enter Password</string>
     <string name="tv_doesnt_have_account">Doesn\'t have an account? <font fgcolor="blue">Register Here</font></string>
-    <string name="login_failed">Login Failed</string>
     <string name="login_success">Login Success</string>
     <string name="logout_success">Logout Success</string>
     <string name="tv_wrong_email">Email doesn\'t exist</string>
@@ -21,7 +20,6 @@
     <string name="register_success">Register Success</string>
 
     <!--Home-->
-    <string name="tv_label_home">Home</string>
     <string name="tv_home_welcome">Welcome, %1$s</string>
     <string name="tv_home_empty_list">Movie is empty</string>
     <string name="tv_title">Title</string>

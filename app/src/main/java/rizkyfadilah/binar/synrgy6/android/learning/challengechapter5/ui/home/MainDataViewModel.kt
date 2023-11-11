@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
-import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.network.DetailMovieResponse
 import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.network.MovieRepository
 import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.network.MovieResponse
 import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.utils.NetworkResult
@@ -12,7 +11,7 @@ import rizkyfadilah.binar.synrgy6.android.learning.challengechapter5.utils.Netwo
 class MainDataViewModel(private val movieRepository: MovieRepository) : ViewModel() {
     val dataMovie: LiveData<NetworkResult<MovieResponse>> = movieRepository.getMovie().asLiveData()
 
-    fun detailDataMovie(movieId: Int): LiveData<NetworkResult<DetailMovieResponse>> =
+    fun detailDataMovie(movieId: Int): LiveData<NetworkResult<MovieResponse.Results>> =
         movieRepository.getDetailMovie(movieId).asLiveData()
 
     class Factory(private val movieRepository: MovieRepository) : ViewModelProvider.Factory {

@@ -17,7 +17,7 @@ class MovieRepository(private val apiService: ApiService) : SafeApiCall() {
         }.flowOn(Dispatchers.IO)
     }
 
-    fun getDetailMovie(movieId: Int): Flow<NetworkResult<DetailMovieResponse>> {
+    fun getDetailMovie(movieId: Int): Flow<NetworkResult<MovieResponse.Results>> {
         return flow {
             emit(NetworkResult.Loading())
             emit(safeApiCall {

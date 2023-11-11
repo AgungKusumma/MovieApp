@@ -6,7 +6,6 @@
     <string name="tv_login_email_hint">Masukkan Email</string>
     <string name="tv_login_password_hint">Masukkan Kata Sandi</string>
     <string name="tv_doesnt_have_account">Belum memiliki akun? <font fgcolor="blue">Daftar di Sini</font></string>
-    <string name="login_failed">Gagal Masuk</string>
     <string name="login_success">Berhasil Masuk</string>
     <string name="logout_success">Berhasil Keluar</string>
     <string name="tv_wrong_email">Email tidak ditemukan</string>
@@ -20,7 +19,6 @@
     <string name="register_success">Berhasil Mendaftar</string>
 
     <!--Home-->
-    <string name="tv_label_home">Beranda</string>
     <string name="tv_home_welcome">Selamat datang, %1$s</string>
     <string name="tv_home_empty_list">Daftar Film kosong</string>
     <string name="tv_title">Judul</string>
